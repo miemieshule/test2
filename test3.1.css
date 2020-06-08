@@ -1,0 +1,100 @@
+html{
+    font-size: 625%;
+}
+/*16*6.25=100px 16是html的默认大小 1rem=100px*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background: lightskyblue;
+}
+/*固定标签不用写成 .body*/
+
+.imghoutui{
+    font-size: 0;
+    width: 0.55rem;
+    height: 0.55rem;
+    margin-right: 0.35rem;
+    margin-top: 0.35rem;
+    float: right;
+}
+/*
+<!-- 0.55*100=55px-->
+<!--0.35*100=35px-->
+<!-- 相对定位和直接指定元素位置 指定还是外边距 -->
+ */
+
+.imghoutui img {
+    width: 100%;
+    height: 100%;
+}
+/*对图片设置百分比 图片有多大就自动响应有多大*/
+
+.wzgd{
+    margin-top: 0.2rem;
+    padding-top:0.4rem;
+    text-align: center;
+}
+/* 向上给20px 40px 组成60px ,顶起高度
+居中元素 center  */
+
+.wz{
+    margin-top: 1.2rem;
+    text-align: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+/* 只有一个问题 这个0.8 80px怎么来的？ 两边的编剧吧，往上给个距离只是上浮，不代表左右两边可以控制*/
+
+.xaioren4{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: inline-block;
+    color: white;
+}
+/*这个div 左80px 顶部200px 一行多个可设宽高 文字颜色为白色*/
+.imgxiaoren{
+    width:0.85rem;
+    height: 0.85rem;
+    text-align: center;
+}
+/*包含照片div 内容宽85px 高85px 居中显示*/
+
+.imgxiaoren img{
+    width:100%;
+    height: 100%;
+}
+/*照片在包含div中已经指定了宽高 这个百分比？
+按照我的理解是 图片有多大 就按照百分比放到多大 等会尝试一下改一下数据看看*/
+
+.logoyuan{
+    margin-top: 2rem;
+    margin-right:2rem;
+    float: right;
+    color: white;
+}
+
+.logoyuanyuan{
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+}
+
+.logoyuanyuan img{
+    width: 100px;
+    height: 100px;
+}
+
+.font-size-30 {
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+/*样式 字体大小30px 文字居中显示*/
+
+.font-size-24 {
+    font-size: 0.24rem;
+    text-align: center;
+}
+
+/*样式引用 字体大小24px 文字居中显示*/
